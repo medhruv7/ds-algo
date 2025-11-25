@@ -1,7 +1,8 @@
-#include "common_headers.h"
-// #include "bits/stdc++.h"
+// #include "common_headers.h"
+#include "bits/stdc++.h"
 
 using namespace std;
+using ll = long long;
 
 int main() {
     
