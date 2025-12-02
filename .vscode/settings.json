@@ -19,6 +19,10 @@
         "unordered_set": "cpp",
         "limits": "cpp",
         "algorithm": "cpp",
-        "__config": "cpp"
+        "__config": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "span": "cpp",
+        "valarray": "cpp"
     }
 }

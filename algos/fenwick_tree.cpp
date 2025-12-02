@@ -17,6 +17,7 @@ struct Fenwick_tree {
     };
 
     // update in [1, i]
+    // point update
     void update(int i, ll delta) {
         // convert to 1 indexed
         i++;
@@ -29,6 +30,7 @@ struct Fenwick_tree {
     }
 
     // query from [1, n]
+    // point query
     ll query(int r) {
         // convert to 1 indexed
         r++;
@@ -42,6 +44,7 @@ struct Fenwick_tree {
         return ans;
     }
 
+    // range query
     ll query(int l, int r) {
         if(l == 0) {
             return query(r);
