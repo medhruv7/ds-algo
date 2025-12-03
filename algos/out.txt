@@ -1,0 +1,12 @@
+Caso #1
+4
+4 5
+2 4
+2 3
+1 2
+Caso #2
+2
+4 5
+3 4
+Caso #3
+Sin bloqueos
