@@ -62,6 +62,16 @@ struct LCA {
         if(right == -1) return left;
         return (height[left] < height[right]) ? left : right;
     }
+
+    int lca(int a, int b) {
+        int left = first[a];
+        int right = first[b];
+        if(left > right) {
+            swap(left, right);
+        }
+
+        return query(1, 0, euler.size() - 1, left, right);
+    }
 };
 
 int main() {
