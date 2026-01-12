@@ -19,7 +19,7 @@ void dijkstra(int s) {
     st.insert({0, s});
 
     while(!st.empty()) {
-        int v = st.begin()->first;
+        int v = st.begin()->second;
         st.erase(st.begin());
 
         for(auto edge : adj[v]) {
